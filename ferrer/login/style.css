@@ -1,0 +1,199 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.pagina_login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.imagen_principal {
+    height: 600px;
+}
+
+.pagina_login .formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 5rem;
+    border-style: solid;
+    border-width: 0.2px;
+    padding: 2.5rem 2rem;
+    border-color: rgb(215, 215, 215);
+    border-radius: 0.5rem;
+}
+
+
+
+.pagina_login .formulario input {
+    font-size: 10px;
+    background-color: rgb(249, 248, 248);
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: rgb(215, 215, 215);
+    border-radius: 0.2rem;
+    height: 2rem;
+    width: 15rem;
+    margin: 0.3rem 0;
+}
+
+.pagina_login .formulario .logo_instagram {
+    margin-left: 1.5rem;
+    width: 12rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pagina_login .formulario button {
+    margin: 0.5rem 0;
+    height: 2rem;
+    width: 15rem;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    background-color: rgb(0, 145, 255);
+}
+
+.pagina_login .formulario button:hover {
+   cursor: pointer;
+   transition: background-color 0.5s;
+   background-color: rgb(1, 87, 152);
+}
+
+.separador {
+    margin-top: -0.1rem;
+    text-align: center;
+    color: rgb(194, 194, 194);
+}
+
+ol {
+    display: flex;
+    flex-direction: row;
+    margin-left: 24rem;
+    text-align: center;
+    color: rgb(173, 173, 173);
+    font-size: 13px;
+}
+
+.login_facebook {
+    display: flex;
+    flex-direction: row;
+}
+
+.login_facebook img {
+    width: 1.5rem;
+    object-fit: contain;
+    margin-left: 1.2rem;
+}
+
+.login_facebook span {
+    font-weight: light;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+    color: rgb(0, 0, 105);
+}
+
+.pagina_login .formulario a span {
+    font-weight: medium;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-left: 2.4rem;
+}
+
+.login_registrate {
+    margin: 2rem 5rem;
+    border-style: solid;
+    border-width: 0.2px;
+    padding: 0.5rem 2rem;
+    border-color: rgb(215, 215, 215);
+    border-radius: 0.5rem;
+    font-size: 13px;
+}
+
+.login_registrate span{
+    font-size: 14px;
+    color: rgb(0, 145, 255);
+    font-weight: bold;
+}
+
+
+.login_registrate span:hover {
+cursor: pointer;
+    transition: color 0.5s;
+    color: rgb(1, 87, 152);
+}
+
+.login-tiendas {
+    margin: 2rem 5rem;
+        border-style: none;
+        border-width: 0.2px;
+        padding: -0.5rem 2rem;
+        border-color: rgb(215, 215, 215);
+        border-radius: 0.5rem;
+        font-size: 13px;
+}
+
+.login-tiendas p{
+    margin-left: 4.5rem;
+} 
+
+.login-tiendas div {
+    margin-left: 0.9rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.login-tiendas img {
+    width: 8rem;
+    margin: 0 0.2rem;
+    object-fit:contain;
+} 
+
+.login-tiendas img:hover {
+    cursor:pointer;
+}
+
+/*Registro*/
+
+.info-registro {
+    width: 15rem;
+    color: gray;
+    text-align: center;
+    font-size: 10px;
+}
+
+.info-facebook {
+    margin-top: -15px;
+    width: 15rem;
+    font-weight: bold;
+    color: rgb(81, 81, 81);
+    text-align: center;
+    font-size: 16px;
+}
+
+.registrate_login {
+    margin: 2rem 5rem;
+    border-style: solid;
+    border-width: 0.2px;
+    padding: 0.5rem 4rem;
+    border-color: rgb(215, 215, 215);
+    border-radius: 0.5rem;
+    font-size: 13px;
+}
+
+.registrate_login span {
+    font-size: 14px;
+    color: rgb(0, 145, 255);
+    font-weight: bold;
+}
+
+
+.registrate_login span:hover {
+    cursor: pointer;
+    transition: color 0.5s;
+    color: rgb(1, 87, 152);
+}

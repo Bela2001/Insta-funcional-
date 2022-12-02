@@ -1,0 +1,258 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    width: 18rem;
+    height: 100rem;
+    position: fixed;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(202, 202, 202);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    margin-left:-1rem;
+    margin-top: -1rem;
+}
+
+.logo-aside{
+    margin: 3rem 0;
+    width: 7rem;
+    object-fit: contain;
+}
+
+
+.side-opcion{
+    display: flex;
+    flex-direction: row;
+}
+
+.side-opcion:hover{
+    transition: opacity 0.5s;
+        opacity: 0.5;
+}
+
+
+.side-opcion img{
+    width: 2rem;
+    object-fit: contain;
+    margin: 0.5rem 0;
+}
+
+.side-opcion p {
+    padding-top: 0.5rem;
+    margin-left: 0.7rem;
+    font-size:0.8rem;
+    color: black;
+}
+
+.side-opcion a{
+    text-decoration: none;
+}
+
+.mas-opciones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 19rem;
+}
+
+/* Post */
+.post {
+    margin: 20px 0;
+    margin-left: 400px;
+    width: 32rem;
+}
+
+.post-head {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-width: .5px;
+    border-color: rgb(226, 226, 226);
+    border-radius: 10px;
+}
+
+.post-head img {
+    width: 40px;
+    height: 40px;
+    border-radius: 80px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.informacion-post {
+    margin: 13px 20px;
+}
+
+.informacion-post span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.informacion-post span:hover {
+    cursor: pointer;
+    transition: opacity 0.5s;
+    opacity: 0.5;
+}
+
+.informacion-post p:hover {
+    cursor: pointer;
+    transition: opacity 0.5s;
+    opacity: 0.8;
+}
+
+.informacion-post p {
+    font-size: 11px;
+    margin: 5px 0;
+}
+
+/* Imagen */
+.descripcion-post{
+    border-style: solid;
+    border-width: .5px;
+    border-color: rgb(226, 226, 226);
+    border-radius: 0.1rem;
+    padding: 1rem 0;
+    margin-top: -0.5rem;
+}
+
+.imagen-principal img {
+    min-width: 32rem;
+    max-width: 32rem;
+    margin-top: -5px;
+}
+
+.interacciones{
+    padding: 0 0.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.interacciones-i img:hover{
+    cursor: pointer;
+        transition: opacity 0.5s;
+        opacity: 0.5;
+}
+
+/* Descripcion */
+
+.likes_descripcion {
+    margin-top: 8px;
+    margin-left: 1rem
+}
+
+.likes_descripcion span {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.likes_descripcion {
+    font-size: 14px;
+    max-width: 470px;
+}
+
+/* Comentarios */
+.comentarios {
+    margin-top: -15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.comentarios p {
+    font-size: 13px;
+    color: gray;
+}
+
+.comentarios span {
+    font-size: 10px;
+    margin-top: -5px;
+    color: gray;
+}
+
+.comentar{
+    display: flex;
+    flex-direction: row;
+    padding: 0 0.7rem;
+}
+.comentar img{
+    margin-left: 1.5rem;
+    width: 1.5rem;
+    object-fit: contain;
+}
+
+.comentar p {
+    color: gray;
+}
+
+.comentar span{
+    margin-top: 1rem;
+    margin-left: 9rem;
+    color: rgb(44, 128, 255);
+    font-weight: bold;
+}
+
+/* Recomendaciones */
+.recomendaciones{
+    position: fixed ;
+    margin-left: 67rem;
+    margin-top: 1.5rem;
+}
+
+.recomendaciones-perfil{
+    display: flex;
+    flex-direction: row;
+}
+
+.recomendaciones-perfil img{
+    min-width: 5rem;
+    max-width: 5rem;
+    object-fit: contain;
+    border-radius: 3rem;
+}
+
+.recomendaciones-perfil p {
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.recomendacion-individual{ 
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+}
+
+.recomendacion-individual:hover {
+    cursor: pointer;
+        transition: opacity 0.5s;
+        opacity: 0.5;
+}
+
+.recomendaciones-linea p{
+    margin: 2rem 0;
+    font-weight: bold;
+    color: gray;
+}
+
+.recomendacion-individual img{
+    height: 3rem;
+    object-fit: contain;
+    border-radius:50%;
+}
+
+.recomendacion-individual span {
+    margin-top: 12px;
+    margin-left: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: light;
+}
